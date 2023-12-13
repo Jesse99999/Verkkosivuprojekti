@@ -1,0 +1,585 @@
+body {
+    background-image: linear-gradient(to bottom right, red, yellow);
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    
+}
+
+header h1{
+    color: black;
+}
+
+header div {
+    margin:30px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Navigation*/
+
+
+
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #555; /* Change color on hover */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+#Sully1 {
+    border-radius: 100px;
+    max-width: 150px;
+    margin-right: 20px;
+    box-shadow: 16px 8px 150px rgb(171, 177, 9);
+    border-style: double;
+    
+}
+
+
+#Sully2{
+    height: 400px;
+    margin-right:  50px;
+    border-radius: 50px;
+    box-shadow: 16px 8px 150px rgb(171, 177, 9);
+    border-style:double;
+    display: flex;
+}
+#Sully3 { 
+    height: 300px;
+    width: 400px;
+    box-shadow: 16px 8px 150px rgb(171, 177, 9);
+    border-style:dashed;
+    border-radius: 30px;
+}
+
+#Sully4 {
+    
+    height: 200%;
+    width: 200%;
+    border-radius:50px;
+    box-shadow: 16px 8px 150px rgb(171, 177, 9);
+    
+
+}
+
+
+
+#footer {
+
+    justify-content: center;
+}
+footer a {
+    color: black;
+}
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+h2 {
+    text-align: center;
+    color: black;
+
+}
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: black;
+}
+
+
+#navbar0 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+    
+    
+}
+#navbar0 ul{
+    display: flex;
+    gap:50px;
+    list-style-type: none;
+    
+}
+
+#navbutton {
+    display: flex;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+    margin: 5px;
+}
+
+
+@media screen and (max-width: 2000px) {
+    
+    @media screen and (max-width: 800px) {
+        #navbar0 ul {
+            flex-direction: column; /* Change to column layout for smaller screens */
+            align-items: center;
+        }
+    
+        
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+figure {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    figure {
+        flex-direction: column; /* Change to column layout for smaller screens */
+        align-items: center;
+    }
+}
+
+
+#Nappi {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#perustietoh1 {
+    
+    font-size:xx-large;
+    color: black;
+    margin-bottom: 40px;
+    
+    
+}
+
+
+    /*-------------------------SECTION1----------------------*/
+    
+    #section1 {
+        display: flex;
+        margin-top: 200px;
+    }
+    #section1 ul {
+        display: flex;
+        flex-direction: row;
+    }
+    
+
+    #section3 button {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+
+#section3{
+        margin-top: 200px;
+        padding-top: 35px;
+
+    }
+
+#section3div2 {
+ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+    margin-top: 250px;
+}
+
+    
+#section3div ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    list-style-type: none;
+    
+}
+
+
+
+
+
+
+    @media screen and (max-width: 2000px) {
+    
+        @media screen and (max-width: 500px) {
+            #section3div2 ul {
+                flex-direction: column; /* Change to column layout for smaller screens */
+                align-items: center;
+            }
+        }
+    
+}
+
+
+
+
+/*-------------------------SECTION2----------------------*/
+
+#section2 {
+    margin-top: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    gap:200px;
+    color: white;
+    padding: 40px;
+}
+
+    /*-------------------------SECTION3----------------------*/
+
+    #section3div{
+
+        margin-top: 200px;
+    }
+    
+
+
+
+
+
+
+
+/*-------------------------SECTION4----------------------*/
+
+#section4 {
+    
+background-image: linear-gradient(to bottom right, black, white);
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    border-radius: 75%;
+    border-style: ridge;
+    padding:30px;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+
+
+#section4title2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Paragraph {
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+    #Mike {
+        display: flex;
+        margin:50px;
+       height: 40%;
+       width: 50%;
+       
+       box-shadow: 0px 4px 96px;
+       color: black;
+       border-radius: 20px;
+       display: flex;
+       justify-content: center;
+       justify-items: center;
+    
+    }
+    
+
+/*-------------------------SECTION5----------------------*/
+
+
+#section6 {
+
+display: flex;
+gap: 20px;
+
+justify-content:center
+}
+
+
+
+
+
+
+
+
+
+/*-------------------------SECTION5----------------------*/
+
+#section5 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top:300px
+}
+
+
+
+
+#section5 ul{
+list-style-type: none;
+
+}
+
+
+#section5 ul button {
+    border-radius: 10px;
+}
+
+#section5 p {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+
+
+
+#article1 {
+
+    background-color: #00ff2f;
+    border-radius: 50px;
+    border-style: ridge;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+      
+}
+
+
+#article2{
+    background-color: #00ff2f;
+    border-radius: 50px;
+    border-style: ridge;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+}
+
+
+
+
+
+
+#section5 ul button {
+    border-radius: 10px;;
+}
+
+
+
+
+
+
+
+
+
+
+#perustietodiv {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    
+
+    
+    
+}
+
+.Blacktitle {
+    color: black;
+}
+
+#button1 {
+    display: flex;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:30px;
+    padding-left: 50%;
+    margin-left: 20%;
+    margin-top: 50px;
+    
+    
+    background-color: orangered;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: red;
+    box-shadow: 0px 8px 20px red;
+    
+    
+}
+
+#button1:hover {
+    background-color: #f90a0a;
+}
+
+#button2 {
+    display: flex;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin: 5px;
+    padding-left: 75px;
+    background-color: orangered;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: red;
+    box-shadow: 0px 8px 20px red;
+
+}
+
+#button2:hover {
+    background-color: #f90a0a;
+}
+
+
+#button3 {
+    display: flex;
+    margin-top: 30px;
+    margin: 30px auto;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: grey;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    border-style: double;
+}
+
+#button3:hover{
+    background-color:rgb(50, 49, 49);
+}
+
+
+#buttonrow {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 70px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#buttonrow:hover {
+    background-color: #555;
+}
+
+
+
+media 
+
+
+
+
+#button2 {
+    display: flex;
+    margin-top: 30px;
+    margin: 30px auto;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: cyan;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#Kiitokset {
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+
+
+.accordion {
+    display: none; /* Hide accordion content by default */
+    overflow: hidden;
+    margin-top: 10px;
+}
+.active {
+    display: block; /* Show accordion content when active */
+}
